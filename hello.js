@@ -6,7 +6,7 @@ http.createServer(function(request, response) {
 	response.write("Hello, this is dog"); //Response body
 	response.end(); //Closing the connection
 }).listen(8080); //Listen for connections on this port
-console.log('Testing this!!!!'); 
+console.log('Testing this!!!!');
 
 // When this executes, and I go to localhost:8080 in my browser window, I see the "Hello this is dog" text. When I navigate to the directory and run node.js (node script.js) on this file, I get the console log message. 
 
